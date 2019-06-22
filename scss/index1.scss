@@ -1,0 +1,32 @@
+$b-color:#451aaa;
+.box{
+  $b-width:100px;
+  width: $b-width;
+  color: $b-color;
+}
+
+$type:monster;
+p{
+  @if $type == ocean {
+    color: blue;
+  }@else if $type == matador{
+    color: red;
+  }@else if $type == monster{
+    color: green;
+  }
+}
+@for $i from 1 through 3{
+  .item-#{$i} {width: 2em * $i;}
+}
+
+@each $animal in money,orange1,blue1{
+  .#{$animal}-icon{
+    background-image: url("../images/#{$animal}.png");
+  }
+}
+
+$i:6;
+@while $i > 0{
+  .item-#{$i} {width: 2em * $i;}
+  $i:$i - 2;
+}

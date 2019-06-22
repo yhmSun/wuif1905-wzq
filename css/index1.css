@@ -1,0 +1,45 @@
+.box {
+  width: 100px;
+  color: #451aaa;
+}
+
+p {
+  color: green;
+}
+
+.item-1 {
+  width: 2em;
+}
+
+.item-2 {
+  width: 4em;
+}
+
+.item-3 {
+  width: 6em;
+}
+
+.money-icon {
+  background-image: url("../images/money.png");
+}
+
+.orange1-icon {
+  background-image: url("../images/orange1.png");
+}
+
+.blue1-icon {
+  background-image: url("../images/blue1.png");
+}
+
+.item-6 {
+  width: 12em;
+}
+
+.item-4 {
+  width: 8em;
+}
+
+.item-2 {
+  width: 4em;
+}
+
